@@ -1,11 +1,15 @@
+import com.vanniktech.maven.publish.AndroidSingleVariantLibrary
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.compose.compiler)
+    alias(libs.plugins.dokka)
+    alias(libs.plugins.vanniktech.maven.publish)
 }
 
 android {
-    namespace = "se.seb.gds"
+    namespace = "se.seb.gds.tokens"
     compileSdk = 35
 
     defaultConfig {
@@ -33,6 +37,14 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+}
+
+mavenPublishing {
+    configure(AndroidSingleVariantLibrary(
+        variant = "release",
+        publishJavadocJar = true,
+        sourcesJar = true,
+    ))
 }
 
 dependencies {
