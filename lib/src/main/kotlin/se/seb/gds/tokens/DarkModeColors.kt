@@ -31,6 +31,7 @@ val darkModeColors = GdsColorTokens(
    L3Neutral02 = Color(0xff282a29),
    L3Neutral03 = Color(0xff3b3f3e),
    L3Neutral04 = Color(0xff3b3f3e),
+   L3Neutral05 = Color(0xff003824),
    L3Positive01 = Color(0xff026436),
    L3Positive02 = Color(0xff015130),
    L3Positive03 = Color(0xff003d26),

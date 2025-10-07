@@ -31,6 +31,7 @@ data class GdsColorTokens (
   val L3Neutral02: Color,
   val L3Neutral03: Color,
   val L3Neutral04: Color,
+  val L3Neutral05: Color,
   val L3Positive01: Color,
   val L3Positive02: Color,
   val L3Positive03: Color,
