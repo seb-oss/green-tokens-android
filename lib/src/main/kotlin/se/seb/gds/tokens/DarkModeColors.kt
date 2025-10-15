@@ -9,7 +9,7 @@ package se.seb.gds.tokens
 
 import androidx.compose.ui.graphics.Color
 
-val darkModeColors = GdsColorTokens(
+val DarkModeColors = GdsColorTokens(
    L1Neutral01 = Color(0xff0a0b0b),
    L1Neutral02 = Color(0xff282a29),
    L1Brand01 = Color(0xff003824),
