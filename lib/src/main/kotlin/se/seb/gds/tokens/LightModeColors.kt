@@ -11,7 +11,7 @@ import androidx.compose.ui.graphics.Color
 
 val LightModeColors = GdsColorTokens(
    L1Neutral01 = Color(0xffffffff),
-   L1Neutral02 = Color(0xffeaebeb),
+   L1Neutral02 = Color(0xfff4f5f5),
    L1Brand01 = Color(0xff003824),
    L1Inversed = Color(0xff0a0b0b),
    L2Neutral01 = Color(0xfff7f8f7),
