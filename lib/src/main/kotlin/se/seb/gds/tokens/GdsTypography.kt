@@ -2,7 +2,7 @@
  * Do not edit directly, this file was auto-generated.
  */
 
-
+package se.seb.gds.tokens
 
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
