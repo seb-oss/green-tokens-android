@@ -13,7 +13,7 @@ import androidx.compose.ui.text.font.FontWeight
 val GdsSansSerif = FontFamily(
   Font(R.font.seb_sans_serif_light, FontWeight.Light),
   Font(R.font.seb_sans_serif, FontWeight.Normal),
-  Font(R.font.seb_sans_serif_book, FontWeight.Medium),
-  Font(R.font.seb_sans_serif_medium, FontWeight.SemiBold),
+  Font(R.font.seb_sans_serif_book, FontWeight(450)),
+  Font(R.font.seb_sans_serif_medium, FontWeight.Medium),
   Font(R.font.seb_sans_serif_bold, FontWeight.Bold),
 )
